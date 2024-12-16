@@ -31,9 +31,14 @@ h1 {
     font-size: 3em;
 }
 
-#cart {
-    width: 30px;
-    padding-right: 10px;
+#donate {
+    background-color: var(--main-bgc-color);
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 26px;
+    font-weight: bold;
+    color: #fff;
 }
 
 #cart1 {
@@ -387,3 +392,11 @@ ul{
     text-align: left;
 }
 
+.donation-page {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.donation {
+    font-size: 20px;
+}
